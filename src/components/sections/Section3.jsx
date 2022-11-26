@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-import formatSquare from "../../assets/images/format-square.png";
 import Polaris from "../../assets/images/Rectangle5.png"
 import Guaranty from "../../assets/images/Rectangle4.png"
 import Providus from "../../assets/images/Rectangle6.png"
