@@ -29,7 +29,6 @@ export default function Dashboard(){
               <GTBank/>
               : null
         }
-
        <Section3 />
       </div>
     </div>
