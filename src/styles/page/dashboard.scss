@@ -1,0 +1,131 @@
+.container{
+    padding: 20px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.btns{
+    display: flex;
+    font-size: 16px;
+    .btn1{
+        background-color: white;
+        flex-direction: row;
+        border-radius: 8px;
+        color: #E1E1E1;
+        padding:10px;
+        margin-right: 20px;
+        position: relative;
+    }
+    .btn2{
+        background-color: #5444F2;
+        border-radius: 8px;
+        color: white;
+        padding:10px;
+        position: relative;
+    }
+    .btn_image{
+        position: absolute;
+        top:10px;
+        left:0;
+    }
+}
+.sections{
+    display: grid;
+    gap: 20px;
+    .section1{
+        background-color: white;
+        display: grid;
+        grid-template-columns: 1.2fr 1fr 1fr;
+        grid-column: 1 / span 2;
+        grid-row: 1;
+        padding: 20px;
+        border-radius: 8px;
+        .text{
+            color: #65717C;
+            font-size: 14px;
+        }
+        .bold_text{
+            font-size: 24px;
+            font-weight: 600;
+        }
+    }
+    .section2{
+        background-color: white;
+        grid-column: 3;
+        grid-row: 1 / span 2;
+        padding: 20px 0;
+        border-radius: 8px;
+    }
+    .section3{
+        grid-column: 1 / span 2;
+        grid-row: 2;
+        padding: 20px;
+        border-radius: 8px;
+    }
+}
+.table_head{
+    border: 0.5 solid black !important;
+}
+.bankRow {
+    cursor: pointer;
+  }
+  .bankRow:nth-child(even) {
+    background-color: #f1f1f1 !important;
+  }
+  .bankRow:nth-child(odd) {
+    background-color: #fff !important;
+  }
+.branch{
+    color:#5444F2;
+    background-color: #c4bfef;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.tableRow{
+    height: 7vh;
+}
+.tableRow:nth-child(even) {
+    background-color: #f1f1f1 !important;
+  }
+  .tableRow:nth-child(odd) {
+    background-color: #fff !important;
+  }
+.input_container{
+    position: relative;
+    
+.input{
+    background-color: white;
+    border: 0.5px solid black;
+    padding: 5px 10px;
+    min-width: 30vw;
+    border-radius: 8px;
+}
+.input_search{
+    position: absolute;
+    top:15px;
+    right: 25px;
+}
+}
+.colored-text{
+    color:#5444F2; 
+}
+.active{
+    color: #02BA81;
+}
+.break{
+    border: 10px solid #FFEDE3;
+}
+.buton{
+    background-color: #fff;
+    flex-direction: row-reverse;
+    color: #65717C;
+    border: 0.5px solid black;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+.copied{
+    color: #5444F2;
+}

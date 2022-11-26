@@ -1,0 +1,82 @@
+@font-face {
+  font-family: HelveticaNeueCyrBold;
+ src: url(../src/assets/fonts/Helvetica\ Neu\ Bold.ttf);  
+}
+@font-face {
+  font-family: HelveticaNeueCyrMedium;
+ src: url(../src/assets/fonts/HelveticaNeueMed.ttf);  
+}
+@font-face {
+  font-family: HelveticaNeueCyrLight;
+ src: url(../src/assets/fonts/HelveticaNeue\ Light.ttf);  
+}
+@font-face {
+  font-family: HelveticaNeueCyrThin;
+ src: url(../src/assets/fonts/HelveticaNeue\ Thin.ttf);  
+}
+@font-face {
+  font-family: HelveticaNeueCyr;
+ src: url(../src/assets/fonts/HelveticaNeue.ttf);  
+}
+.contain{
+  font-family: HelveticaNeueCyrLight;
+  background-color:#F5F6FA;
+  height: 100vh;
+}
+.logo{
+  margin: auto;
+  padding-top: 20px;
+}
+.header{
+  font-family: HelveticaNeueCyrBold;
+  font-size: 20px;
+}
+.card{
+  background-color: white;
+  margin: 15vh 15px 15px 15px;
+  padding:30px;
+  border-radius: 10px;
+}
+.paragraph{
+  margin: 10px 0;
+  font-size: 14px;
+}
+.coloredParagraph{
+  color: #5444F2;
+}
+.inputs{
+  border: 0.5px solid #E1E1E1;
+  border-radius: 8px;
+  display: block;
+  width:100%;
+  padding:5px 10px;
+}
+.btn{
+  background-color: #5444F2;
+  color: #fff;
+  width: 100%;
+  margin: 10px 0;
+  padding: 5px 0;
+  border-radius: 8px;
+}
+@media screen and (min-width: 480px) and (max-width:767px){
+  .card{
+   margin: auto;
+   margin-top: 50px;
+   max-width: 60%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width:1023px){
+  .card{
+   margin: auto;
+   margin-top: 20vh;
+   max-width: 50%;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width:1440px){
+  .card{
+   margin: auto;
+   margin-top: 20vh;
+   max-width: 40%;
+  }
+}

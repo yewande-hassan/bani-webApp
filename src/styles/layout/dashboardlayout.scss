@@ -1,0 +1,17 @@
+.dashboard_layout {
+
+    .menu__sidebar {
+      display: none;
+    }
+    .dashboard_pages {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 0.5fr 3fr;
+    //   @media (min-width: 550px) {
+    //     padding: 20px 80px 0;
+    //   }
+    }
+ 
+
+
+  }
