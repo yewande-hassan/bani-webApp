@@ -1,7 +1,5 @@
 import React from "react";
 import Button from "../../components/common/Button";
-// import Guaranty from "../../assets/images/Rectangle4.png"
-// import location2 from "../../assets/images/location2.png"
 import arrowRight from "../../assets/images/arrow-right.png"
 import '../../styles/page/dashboard.scss'
 function BankDetails({activity, image, name, location}) {
