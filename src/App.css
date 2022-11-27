@@ -1,25 +1,15 @@
-@font-face {
-  font-family: HelveticaNeueCyrBold;
- src: url(../src/assets/fonts/Helvetica\ Neu\ Bold.ttf);  
-}
+
 @font-face {
   font-family: HelveticaNeueCyrMedium;
  src: url(../src/assets/fonts/HelveticaNeueMed.ttf);  
 }
-@font-face {
-  font-family: HelveticaNeueCyrLight;
- src: url(../src/assets/fonts/HelveticaNeue\ Light.ttf);  
-}
-@font-face {
-  font-family: HelveticaNeueCyrThin;
- src: url(../src/assets/fonts/HelveticaNeue\ Thin.ttf);  
-}
+
 @font-face {
   font-family: HelveticaNeueCyr;
  src: url(../src/assets/fonts/HelveticaNeue.ttf);  
 }
 .contain{
-  font-family: HelveticaNeueCyrLight;
+  font-family: HelveticaNeueCyrMedium;
   background-color:#F5F6FA;
   height: 100vh;
 }
@@ -28,7 +18,6 @@
   padding-top: 20px;
 }
 .header{
-  font-family: HelveticaNeueCyrBold;
   font-size: 20px;
 }
 .card{
@@ -43,6 +32,11 @@
 }
 .coloredParagraph{
   color: #5444F2;
+}
+.details{
+  font-family: HelveticaNeueCyr;
+  color:#65717C;
+  font-weight: 600;
 }
 .inputs{
   border: 0.5px solid #E1E1E1;

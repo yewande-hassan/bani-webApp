@@ -3,15 +3,15 @@ import Button from "../../components/common/Button";
 import formatSquare from "../../assets/images/format-square.png";
 import add from "../../assets/images/add.png"
 import '../../styles/page/dashboard.scss';
-import Section1 from "../../components/sections/Section1";
-import Section3 from "../../components/sections/Section3";
-import GTBank from "../../features/bankdetails/GTBank";
+import DashboardCard from "../../components/sections/DashboardCard";
+import Section3 from "../../components/sections/ListOfBanks";
+import BankDetails from "../../features/bankdetails/BankDetails";
 
 export const UserContext = createContext()
 export default function Dashboard(){
-  const [show, setShow] = useState(false);
-  const handleClick = ()=>{
-      setShow(!show)
+  const [show, setShow] = useState(null);
+  const handleClick = (params)=>{  
+    setShow(params)   
   }
   return (
     <UserContext.Provider value={{show,handleClick}}>
@@ -24,9 +24,9 @@ export default function Dashboard(){
         </span>
       </div>
       <div className="sections">
-      <Section1/>
-        {show ?
-              <GTBank/>
+      <DashboardCard/>
+        {show != null ?
+             <BankDetails details={show}/>
               : null
         }
        <Section3 />

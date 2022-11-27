@@ -2,13 +2,14 @@ import React from "react";
 import Button from "../../components/common/Button";
 import arrowRight from "../../assets/images/arrow-right.png"
 import '../../styles/page/dashboard.scss'
-function BankDetails({activity, image, name, location}) {
+
+function BankDetails({details}) {
   return (
     <div className="section2">
     <div className="flex justify-between my-3 px-3">
       <span>
         <p className="text-xs">
-          <span className="font-bold">Activity Feed</span> - {activity}
+          <span className="font-bold">Activity Feed</span> - {details.activity}
         </p>
       </span>
       <span className="text-xs">
@@ -21,12 +22,12 @@ function BankDetails({activity, image, name, location}) {
   </div>
   <div className="flex-auto my-5">
     <div className="relative flex flex-wrap items-baseline pb-6 before:bg-[#FFEDE3] before:absolute before:-top-6 before:bottom-0 before:left-0 before:right-0">
-    <img src={image} alt="" className="absolute z-10 inset-0  px-4" loading="lazy" />
+    <img src={details.image} alt="" className="absolute z-10 inset-0  px-4" loading="lazy" />
     </div>
   </div>
     <div className="flex justify-between my-3 px-3 text-xs">
       <span>
-        <p className="font-bold">{name}</p>
+        <p className="font-bold">{details.bank_name}</p>
         <p>209630**83</p>
       </span>
       <span>
@@ -45,15 +46,15 @@ function BankDetails({activity, image, name, location}) {
         </span>
         <span className="mb-2">
           <p className="text-xs text-[#65717C]">Linked Branch</p>
-          <img src={location} alt="branch2" className="ml-2" />
+          <img src={details.location} alt="branch2" className="ml-2" />
         </span>
       </div>
       <table className="w-full table-auto text-sm">
   <thead>
     <tr>
-      <th className="text-start">Transaction Details</th>
-      <th className="text-start">Amount</th>
-      <th className="text-start">Date</th>
+      <th className="text-start tableHead">Transaction Details</th>
+      <th className="text-start tableHead">Amount</th>
+      <th className="text-start tableHead">Date</th>
     </tr>
   </thead>
   <tbody>

@@ -9,7 +9,7 @@ function App() {
       <div className='card'>
         <p className='header sm:text-2xl'>Log in to your account</p>
         <p className='paragraph sm:text-base'>Don't have an account? <span className='coloredParagraph'>Get Started</span></p>
-        <form>
+        <form className='details'>
           <label className='text-sm'>
             Email
             <input type="email" placeholder='E.g: victor.onazi@getbani.co' className='inputs'/>

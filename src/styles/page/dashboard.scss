@@ -1,3 +1,12 @@
+@font-face {
+    font-family: HelveticaNeueCyrMedium;
+   src: url(../../assets/fonts/HelveticaNeueMed.ttf);  
+  }
+  
+  @font-face {
+    font-family: HelveticaNeueCyr;
+   src: url(../../assets/fonts/HelveticaNeue.ttf);  
+  }
 .container{
     padding: 20px;
 }
@@ -6,6 +15,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 10px 0;
+    font-family: HelveticaNeueCyrMedium;
 }
 .btns{
     display: flex;
@@ -49,7 +59,7 @@
         }
         .bold_text{
             font-size: 24px;
-            font-weight: 600;
+            font-family: HelveticaNeueCyrMedium;
         }
     }
     .section2{
@@ -68,15 +78,19 @@
 }
 .table_head{
     border: 0.5 solid black !important;
+    color: #65717C;
 }
 .bankRow {
     cursor: pointer;
+    height: 8vh;
+    font-size: 14px;
+    font-family: HelveticaNeueCyrMedium;
   }
   .bankRow:nth-child(even) {
-    background-color: #f1f1f1 !important;
+    background-color: #f1f1f1 ;
   }
   .bankRow:nth-child(odd) {
-    background-color: #fff !important;
+    background-color: #fff;
   }
 .branch{
     color:#5444F2;
@@ -84,14 +98,19 @@
     padding: 5px 10px;
     border-radius: 20px;
 }
+.tableHead{
+    color: #65717C;
+}
 .tableRow{
     height: 7vh;
+    font-size: 13px;
+    font-family: HelveticaNeueCyrMedium;
 }
 .tableRow:nth-child(even) {
-    background-color: #f1f1f1 !important;
+    background-color: #f1f1f1;
   }
   .tableRow:nth-child(odd) {
-    background-color: #fff !important;
+    background-color: #fff ;
   }
 .input_container{
     position: relative;
@@ -122,6 +141,7 @@
     background-color: #fff;
     flex-direction: row-reverse;
     color: #65717C;
+    font-family: HelveticaNeueCyrMedium;
     border: 0.5px solid black;
     border-radius: 8px;
     padding: 5px 10px;

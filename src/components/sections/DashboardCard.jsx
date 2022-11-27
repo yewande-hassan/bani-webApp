@@ -1,7 +1,7 @@
 import React from 'react';
 import "../../styles/page/dashboard.scss"
 
-const Section1 = () => {
+const DashboardCard = () => {
   return (
     <div className="section1">
     <span>
@@ -20,4 +20,4 @@ const Section1 = () => {
   );
 };
 
-export default Section1;
+export default DashboardCard;
